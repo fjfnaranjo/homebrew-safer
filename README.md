@@ -1,6 +1,6 @@
 # homebrew-safer
 
-Main safer docs: https://github.com/fjfnaranjo/safer
+Main website: https://fjfnaranjo.com/safer/
 
 ## How to install safer?
 
