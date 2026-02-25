@@ -15,3 +15,5 @@ brew install safer
 podman build -f Containerfile -t homebrew-safer:latest .
 podman run --rm -ti homebrew-safer:latest
 ```
+
+In that shell, install safer with the instructions above.
