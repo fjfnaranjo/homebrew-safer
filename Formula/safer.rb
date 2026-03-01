@@ -1,14 +1,11 @@
 class Safer < Formula
   desc "safer: Protect your dev box from supply-chain attacks."
   homepage "https://fjfnaranjo.com/safer/"
-  url "https://github.com/fjfnaranjo/safer/archive/refs/tags/release-0.1-rc3.tar.gz"
-  sha256 "75e0dac41c49d88f337aceee02a74dbb781a973145b9d0ab8f085882ae84963e"
-
-  revision 1
+  url "https://github.com/fjfnaranjo/safer/releases/download/release-0.1-rc4/safer-0.1-rc4.tar.gz"
+  sha256 "f582baee06944644e58a0cdc6ac6292746f94ed98d05c71ffb53ca9ec18767ba"
 
   def install
-    inreplace "safer", "0.0-dev", stable.version.to_s
-    bin.install "safer"
-    man1.install "safer.1"
+    bin.install "bin/safer"
+    man1.install "share/man/man1/safer.1"
   end
 end
