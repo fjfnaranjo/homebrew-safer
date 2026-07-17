@@ -6,6 +6,7 @@ Main website: https://fjfnaranjo.github.io/safer/
 
 ```
 brew tap fjfnaranjo/safer
+brew trust fjfnaranjo/safer
 brew install safer
 ```
 
